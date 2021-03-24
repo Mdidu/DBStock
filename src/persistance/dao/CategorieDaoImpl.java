@@ -4,10 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Session;
-import org.hibernate.Transaction;
 
 import persistance.entities.Categorie;
-import persistance.entities.Client;
 
 public class CategorieDaoImpl implements GlobalDao<Categorie> {
 
